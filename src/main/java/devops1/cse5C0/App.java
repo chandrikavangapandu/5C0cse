@@ -1,0 +1,16 @@
+package devops1.cse5C0;
+
+import java.util.Scanner;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int n,i,a;
+    	Scanner sc=new Scanner(System.in);
+    	System.out.println("Enter your number:");
+    	n=sc.nextInt();
+    	for(i=1;i<=10;i++){
+    	System.out.println(n+"x"+i+"="+n*i);
+    }
+}
+}
